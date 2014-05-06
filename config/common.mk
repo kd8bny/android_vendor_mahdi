@@ -141,11 +141,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
+# Superuser
 PRODUCT_PACKAGES += \
     procmem \
     procrank \
     Superuser \
     su
+
+# Stagefright FFMPEG plugin
+PRODUCT_PACKAGES += \
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
+    libnamparser
 
 # Allow to skip prebuilt apps
 ifneq ($(WITHOUT_PROP_APPS),true)
