@@ -71,7 +71,8 @@ include vendor/mahdi/config/themes_common.mk
 # Required Mahdi packages
 PRODUCT_PACKAGES += \
     Development \
-    LatinIME
+    LatinIME \
+    BluetoothExt
 
 # Optional Mahdi packages
 PRODUCT_PACKAGES += \
